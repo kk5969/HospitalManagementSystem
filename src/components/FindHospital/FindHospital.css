@@ -1,0 +1,95 @@
+.findHospitalCon{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.searchHospital {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.searchHospital input[type="text"]{
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light grey border */
+    background: #f9f9f9; /* Very light grey background */
+    color: #333;
+    font-size: 1rem;
+}
+
+.hospital {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 0;
+}
+
+.hospitaldetails{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 20px 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.hospitaldetails .hospitalLogo img{
+    width: 600px;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.hospitaldetails .hospitaldes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 10px 10px;
+}
+
+.hospitaldetails .hospitaldes h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hospitaldetails .hospitaldes p{
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+    margin: 0;
+}
+
+.specialities {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.specialities h2{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.specitalityTab {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 10px 0;
+}
+
+.specitalityTab .speciality {
+    background-color: #584d4d;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.hospitaldes .btn a{
+    text-decoration: none;
+    color: white;
+}

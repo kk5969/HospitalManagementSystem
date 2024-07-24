@@ -1,0 +1,47 @@
+.hospital-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .hospital-profile h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .hospital-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .hospital-profile p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .hospital-profile strong {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .gallery-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,136 @@
+/* HospitalForm.css */
+
+body {
+  background-color: #f4f4f9; /* Light background for the page */
+  color: #333;
+}
+
+.hospital-form {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.hospital-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333; /* Darker text for contrast */
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555; /* Slightly darker text for labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light grey border */
+  background: #f9f9f9; /* Very light grey background */
+  color: #333;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.speciality-inputs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap; /* Allow wrapping of input fields */
+}
+
+.speciality-inputs input[type="text"] {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Light grey border */
+  background: #f9f9f9; /* Very light grey background */
+  color: #333;
+  font-size: 1rem;
+}
+
+.speciality-inputs button {
+  padding: 0.75rem;
+  background-color: #4a90e2; /* Soft blue for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.speciality-inputs button:hover {
+  background-color: #357abd; /* Darker blue on hover */
+}
+
+.speciality-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.speciality-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd; /* Light grey border */
+  background: #f9f9f9; /* Very light grey background */
+  color: #333;
+}
+
+.remove-speciality {
+  background: none;
+  border: none;
+  color: #e74c3c; /* Red color for remove button */
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4a90e2; /* Soft blue for form buttons */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #357abd; /* Darker blue on hover */
+  transform: scale(1.02);
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .hospital-form {
+    padding: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  .navbar-logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ecf0f1;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links .nav-link {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1rem;
+  }
+  
+  .navbar-links .nav-link:hover,
+  .navbar-links .nav-link.active {
+    color: #3498db;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .auth-button {
+    background-color: #3498db;
+    color: #ecf0f1;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+  }
+  
+  .auth-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .register-button {
+    background-color: #e74c3c;
+  }
+  
+  .register-button:hover {
+    background-color: #c0392b;
+  }
+  

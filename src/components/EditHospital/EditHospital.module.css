@@ -1,0 +1,90 @@
+.hospital-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .hospital-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 3px;
+  }
+  
+  .image-preview {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .speciality-inputs {
+    display: flex;
+    align-items: center;
+  }
+  
+  .speciality-inputs input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .speciality-inputs button {
+    padding: 8px 12px;
+  }
+  
+  .speciality-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .speciality-list li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .speciality-list .remove-speciality {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
